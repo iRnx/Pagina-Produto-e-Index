@@ -1,1 +1,100 @@
+header {
+    background-color: #BBBBBB; /* Para escolher uma cor de fundo do site */
+    padding: 20px 0; /* para cima e para baixo ter um espaço de 20px e os lado 0. */
+}
+
+.caixa {
+    position: relative; /* para trazer o lado do menu para caixa*/
+    width: 940px; /* este é o tamanho da caixa que fica o menu e o logo */
+    margin: 0 auto; /* serve para centralizar o lado do logo igual o lado do menu, ambos ficarão dentro da caixa */
+}
+
+nav {
+    position: absolute; /* ela poderá se mover para qualquer lado da pagina sem problemas */
+    top: 110px; /* onde esta a div no html, o top: 110 ira posicionar no meio o home, produtos e contato */
+    right: 0; /* Para ficar do lado direito da pagina */
+}
+
+nav li {
+    display: inline; /* a lista contendo home, produtos e contato ficarão em apenas uma linha um do lado do outro. */
+    margin: 0 0 0 15px /* cima, direita, baixo e esquerda,,, serve para defir a margem */
+}
+
+nav a {
+    text-transform: uppercase; /* Para deixar o nome em letra maiúscula */
+    color: #000000; /* Para escolher a cor */
+    font-weight: bold; /* Para deixar a fonte em negrito */
+    font-size: 22px; /* Para aumentar a fonte em 22 pixels */
+    text-decoration: none; /* Serve para tirar o sublinhado que ja vem no link */
+}
+
+nav a:hover{     /* para quando passar o mouse em cima do link do nav a ter uma iteração com usuário */
+    color: #C78C19;  /* escolher a cor da iteração cm usuário */
+}
+
+.produtos {
+    width: 940px; /* para juntar os itens que tem no ul no meio */
+    margin: 0 auto; /* para ter o msm espaço dos lado preenchido automaticamente, 0 cima e embaixo, auto esq e direito*/
+    padding: 50px 0; /* para cima e para baixo ter um espaço de 50px e os lado 0. */
+}
+
+
+.produtos li {
+    display: inline-block; /* para colocar todos os itens da lista um do lado do outro */
+    text-align: center; /* para centralizar a lista */
+    width: 30%; /* para cada item da lista ter um espaço um do outro de 30% */
+    vertical-align: top; /* para todos os itens da lista ter o msm tamanho */
+    margin: 0 1.5%; /* Do lado de fora em cima ter 0 de margem e os lado de fora 1.5% de margem */
+    padding: 30px 20px; /* Para cima  e baixo ter 30px e para os lados direito e equerdo ter 20px # internamente */
+    box-sizing: border-box; /* para o navegador n somar a largura do width com os 20px de largura interna do padding */
+    border-color: #000000; /* A cor da borda */
+    border-width: 2px; /* A grossura da borda */
+    border-style: solid; /* E o estilo da borda */
+    border-radius: 10px; /* Para deixar a borda redondinha */
+}
+
+.produtos li:hover{    /* quando o mouse estiver por cima ter uma iteração com usuário */
+    border-color: #C78C19;  /* para colocar a cor da borda */
+}
+
+.produtos li:active{  /* quando o mouse estiver pressionado dentro da borda, a borda irá mudar de cor */
+    border-color: #088C19;  /* Para mudar a cor da borda quando clicar cm mouse */
+}
+
+.produtos li:hover h2{ /* da class produtos no li quando o mouse estiver por cima aumentar a fonte do h2 */
+    font-size: 34px;  /* para aumentar a fonte do h2 */
+}
+
+.produtos h2 {
+    font-size: 30px; /* para aumentar o tamanho da letra */
+    font-weight: bold; /* Para deixar a fonte em negrito */
+}
+
+.produto-descricao {
+    font-size: 18px; /* para aumentar o tamanho da letra */
+}
+
+.produto-preco {
+    font-size: 22px; /* para aumentar o tamanho da letra */
+    font-weight: bold; /* Para deixar a fonte em negrito */
+    margin: 10px 0 0; /* Margem superior 10px, Margem direita e esquerda 0 e Margem inferior 0  */
+}
+
+footer {
+    text-align: center; /* Para centralizazr */
+    background-image: url("../imagens/bg.jpg"); /* Para carregar uma imagem com css */
+    padding: 40px 0; /* Espaçamento interno 40px pra cima e para baixo e 0 para os lados */
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+
+
+
+
 
